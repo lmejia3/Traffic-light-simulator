@@ -1,2 +1,6 @@
 # Traffic-light-simulator
-simulate a traffic light controlling how cars use a four-way intersection. Each road has a direction (northbound, southbound, eastbound, and westbound). Your program will receive from STDIN the information about the parameters of the traffic light and the cars that want to cross the intersection. After defining the order that the cars will follow to use the intersection, your program must create a child process per car. Each child process will print the information about the car and will sleep for the number of seconds specified in the input file.
+Simulate a traffic light controlling how cars use a four-way intersection. 
+To run it use:
+input from stdin (C++ cin) and use input redirection as in:
+
+Traffic_light_Sim < input1.txt
